@@ -1,6 +1,6 @@
 # NASANEWS 
 
-![nasa](https://postimg.org/image/cje8adthj/)
+![nasa.jpg](https://s31.postimg.org/4dw6c858r/nasa.jpg)
 
 ## **```Dependencias y herramientas```**
 
