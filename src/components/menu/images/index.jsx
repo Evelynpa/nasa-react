@@ -30,16 +30,17 @@ class SearchImg extends Component {
             .then(response => (response.json()))
             .then(data => {
                 console.log(data);
+                console.log(data.collection.items);
                 this.setState({ images: data.collection.items })
             }
             ).catch(function (err) {
-                console.log('Error');
+                console.log(err);
             });
     }
 
-    componentWillMount() {
-         this.getSearchImg(this.props.images);
-        // this.inputVoid
+    componentDidUpdate() {
+        //this.getSearchImg(this.props.images);
+        this.inputVoid
     }
 
     componentDidUpdate() {
@@ -62,8 +63,8 @@ class SearchImg extends Component {
                     <div className="col col-lg-12">
                         <h2 className="title2">Search Images</h2>
                         <div className="askNav text-center">
-                            <input type="text" id="searchPlanet" className="form-control" ref="searchImg" />
-                            <button className="btn btn-primary" id="btnSearchPlanet" onClick={this.getSearchImg}>Buscar</button>
+                            <input type="text" id="searchPlanet" className="form-control" ref="searchImg" value={images}/>
+                            <button className="btn btn-primary" id="btnSearchPlanet" onClick={this.getSearchImg.bind(this)}>Buscar</button>
                         </div>
                     </div>
                 </div>
