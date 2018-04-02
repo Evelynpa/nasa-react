@@ -1,6 +1,6 @@
-![NasaNews](./public/favicon.ico)
-# **```NASANEWS```** 
+# NASANEWS 
 
+![nasa](https://s31.postimg.org/4dw6c858r/nasa.jpg)
 
 ## **```Dependencias y herramientas```**
 
