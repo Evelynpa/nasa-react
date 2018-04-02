@@ -1,5 +1,4 @@
-![NasaNews](./public/favicon.ico)
-# **```NASANEWS```** 
+# NASANEWS 
 
 [![nasa.jpg](https://s31.postimg.org/4dw6c858r/nasa.jpg)](https://postimg.org/image/cje8adthj/)
 
