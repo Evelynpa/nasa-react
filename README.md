@@ -15,6 +15,8 @@
 ![Reactstrap](https://img.shields.io/badge/reactstrap-v5.0.0-301472.svg)
 ![Firebase](https://img.shields.io/badge/bootstrap-v4.11.0-034b86.svg)
 
+Desarrollado para Laboratoria
+
 
 ## **```Proyecto```**
 
